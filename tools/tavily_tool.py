@@ -9,7 +9,7 @@ client = TavilyClient(
 )
 
 
-def tavily_serach(query):
+def tavily_search(query):
     response = client.search(
         query= query,
         max_results= 5
